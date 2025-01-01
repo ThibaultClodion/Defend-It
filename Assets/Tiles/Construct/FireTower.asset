@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1968168ea0ede064bb8fbd87af26d0be, type: 3}
+  m_Name: FireTower
+  m_EditorClassIdentifier: 
+  m_DefaultSprite: {fileID: 21300000, guid: 079902ee6957f104aa33abe7d7501c83, type: 3}
+  m_DefaultGameObject: {fileID: 8589557230873378833, guid: 04dd14cc0da240a40b166771948cfb6d, type: 3}
+  m_DefaultColliderType: 1
+  m_TilingRules: []
+  alwaysConnect: 0
+  tilesToConnect: []
+  checkSelf: 0
+  data: {fileID: 11400000, guid: 11db05c27893588449e36f875f8124c2, type: 2}
+  towerProjectileData: {fileID: 11400000, guid: b3b584bc50ca22e41953405cca1e684b, type: 2}

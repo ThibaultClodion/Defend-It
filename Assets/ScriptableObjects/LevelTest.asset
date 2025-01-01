@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2647078f09cf01b47b23ca94bd069d48, type: 3}
+  m_Name: LevelTest
+  m_EditorClassIdentifier: 
+  spawnsPosition:
+  - {fileID: 2219235097221919902, guid: 2a9a9ae5c07fe264b925833307d01b65, type: 3}
+  - {fileID: 2932682068858051815, guid: ce09f3404d9fe274eaa9a5f4065c7bc9, type: 3}
+  - {fileID: 8458088173937284497, guid: 9ed7a9765b6f1c54eaa2cd765296ed9e, type: 3}
+  - {fileID: 5157380972556560535, guid: 7fdc6a8839247a74f89e4a8406f1317b, type: 3}
+  ennemies:
+  - {fileID: 9049119941228269634, guid: 5e9ef66d880aeff4e9b2b019260f6880, type: 3}
+  waves:
+  - difficultyScore: 25
+    time: 2
+    spawns: 010000000200000003000000
+    ennemies: 00000000
+    ennemiePourcentage: 64000000
+  - difficultyScore: 80
+    time: 10
+    spawns: 010000000000000003000000
+    ennemies: 00000000
+    ennemiePourcentage: 64000000

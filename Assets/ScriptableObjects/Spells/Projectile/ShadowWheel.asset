@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ShadowWheel
+  m_EditorClassIdentifier: Assembly-CSharp::SpellProjectileData
+  logoSprite: {fileID: -1179079640, guid: 9fe73d04ed960f9469b5e3269181bfb0, type: 3}
+  spellSprite: {fileID: 1105080269, guid: 9fe73d04ed960f9469b5e3269181bfb0, type: 3}
+  target: 0
+  cooldown: 5
+  cantMove: 0
+  munition: 1
+  reloadCooldown: 0
+  reloadAll: 0
+  ReloadEffect: 0
+  linkedSpells:
+  - spellData: {fileID: 0}
+    timeAvailable: 0
+    trigger: 0
+  - spellData: {fileID: 0}
+    timeAvailable: 0
+    trigger: 0
+  damage: 50
+  duration: 5
+  directToLocation: 0
+  travelSpeed: 2
+  getThrought: 1
+  getTroughtUntil: 0
+  effects: 
+  numberOfProjectiles: 1
+  spellFormation: 0

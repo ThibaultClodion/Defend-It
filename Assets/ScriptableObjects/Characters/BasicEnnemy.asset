@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8353a63cc8218d4081cb7e06bf09270, type: 3}
+  m_Name: BasicEnnemy
+  m_EditorClassIdentifier: 
+  stats:
+    health: 100
+    moveSpeed: 3
+    difficultyScore: 10
+    isEnnemy: 1
+  spells:
+  - {fileID: 11400000, guid: 1fd40351e9f147e4799aeccf9309de20, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b0443e7a08ac63c4fa49129faf6467d4, type: 2}
+  animations:
+    idleAnimations:
+    - {fileID: -1451149167, guid: 18f0b216956e89d44b873411c16e8514, type: 3}
+    - {fileID: -1748044609, guid: 18f0b216956e89d44b873411c16e8514, type: 3}
+    - {fileID: -1701311321, guid: 18f0b216956e89d44b873411c16e8514, type: 3}
+    - {fileID: 1974695431, guid: 18f0b216956e89d44b873411c16e8514, type: 3}
+    moveAnimations:
+    - {fileID: 464069576, guid: 5e570190298d2f84896bb2d00c69f93a, type: 3}
+    - {fileID: 741973635, guid: 5e570190298d2f84896bb2d00c69f93a, type: 3}
+    - {fileID: -503135586, guid: 5e570190298d2f84896bb2d00c69f93a, type: 3}
+    - {fileID: 412646917, guid: 5e570190298d2f84896bb2d00c69f93a, type: 3}
+    - {fileID: -905504838, guid: 5e570190298d2f84896bb2d00c69f93a, type: 3}
+    - {fileID: 1663962008, guid: 5e570190298d2f84896bb2d00c69f93a, type: 3}
+    spell1Animations:
+    - {fileID: -254723791, guid: d1ee0c9913ca3b24d94c5ecc25ffb981, type: 3}
+    - {fileID: -307528284, guid: d1ee0c9913ca3b24d94c5ecc25ffb981, type: 3}
+    - {fileID: 876559006, guid: d1ee0c9913ca3b24d94c5ecc25ffb981, type: 3}
+    - {fileID: 1863530018, guid: d1ee0c9913ca3b24d94c5ecc25ffb981, type: 3}
+    - {fileID: -1011274133, guid: d1ee0c9913ca3b24d94c5ecc25ffb981, type: 3}
+    - {fileID: 159270638, guid: d1ee0c9913ca3b24d94c5ecc25ffb981, type: 3}
+    spell2Animations: []
+    spell3Animations: []
+    spell4Animations: []
+    hitAnimations: []

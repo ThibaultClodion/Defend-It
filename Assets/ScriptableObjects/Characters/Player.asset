@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8353a63cc8218d4081cb7e06bf09270, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  stats:
+    health: 100
+    moveSpeed: 5
+    difficultyScore: 0
+    isEnnemy: 0
+  spells:
+  - {fileID: 11400000, guid: 1fd40351e9f147e4799aeccf9309de20, type: 2}
+  - {fileID: 11400000, guid: 32ca787069671a640926115bb1869dea, type: 2}
+  - {fileID: 11400000, guid: 91d7ec19c75cab84b98cc40ad182c239, type: 2}
+  - {fileID: 11400000, guid: 0a0946cb2b0bcb842a5cbbc9768d73cf, type: 2}
+  animations:
+    idleAnimations:
+    - {fileID: 344170338, guid: e0170aae42976d64db5f5dd9c0be236e, type: 3}
+    - {fileID: -2145148811, guid: e0170aae42976d64db5f5dd9c0be236e, type: 3}
+    - {fileID: 817370545, guid: e0170aae42976d64db5f5dd9c0be236e, type: 3}
+    - {fileID: 1087874255, guid: e0170aae42976d64db5f5dd9c0be236e, type: 3}
+    - {fileID: -2075767427, guid: e0170aae42976d64db5f5dd9c0be236e, type: 3}
+    moveAnimations:
+    - {fileID: -2120704137, guid: b6628f51c07b4a745b25c5c538888c56, type: 3}
+    - {fileID: -205623345, guid: b6628f51c07b4a745b25c5c538888c56, type: 3}
+    - {fileID: 536716142, guid: b6628f51c07b4a745b25c5c538888c56, type: 3}
+    - {fileID: -1753999189, guid: b6628f51c07b4a745b25c5c538888c56, type: 3}
+    - {fileID: -365400557, guid: b6628f51c07b4a745b25c5c538888c56, type: 3}
+    - {fileID: -1230702231, guid: b6628f51c07b4a745b25c5c538888c56, type: 3}
+    - {fileID: 1989117031, guid: b6628f51c07b4a745b25c5c538888c56, type: 3}
+    - {fileID: -408127182, guid: b6628f51c07b4a745b25c5c538888c56, type: 3}
+    spell1Animations:
+    - {fileID: 224007717, guid: 169dc9e26bc2b8a41a4b192706b17395, type: 3}
+    - {fileID: 1933957934, guid: 169dc9e26bc2b8a41a4b192706b17395, type: 3}
+    - {fileID: -773210072, guid: 169dc9e26bc2b8a41a4b192706b17395, type: 3}
+    - {fileID: -1110241684, guid: 169dc9e26bc2b8a41a4b192706b17395, type: 3}
+    - {fileID: -1534883781, guid: 169dc9e26bc2b8a41a4b192706b17395, type: 3}
+    - {fileID: -1433211954, guid: 169dc9e26bc2b8a41a4b192706b17395, type: 3}
+    - {fileID: 784722750, guid: 169dc9e26bc2b8a41a4b192706b17395, type: 3}
+    - {fileID: 380355720, guid: 169dc9e26bc2b8a41a4b192706b17395, type: 3}
+    spell2Animations: []
+    spell3Animations: []
+    spell4Animations: []
+    hitAnimations: []
